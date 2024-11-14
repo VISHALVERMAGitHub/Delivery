@@ -1,0 +1,12 @@
+.flex-col .img-p{
+    padding: 10px;
+    width: max(25vw ,100px);
+    border: 2px solid rgb(82, 76, 76);
+    outline: 2px;
+
+}
+@media (max-width:845px) {
+    .flex-col .img-p{
+        display: none;
+    } 
+}

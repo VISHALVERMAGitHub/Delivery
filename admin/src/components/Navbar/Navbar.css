@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 3%;
+    height: 5rem;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    color: tomato;
+    width: max(10%, 80px);
+
+    
+}
+.navbar .logo p{
+    color: #292525;
+}
+.profile{
+    border: 2px solid rgb(53, 49, 49);
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo_icon{
+    margin-right: .4rem;
+    width: 2rem;
+    height: 2rem;
+}
